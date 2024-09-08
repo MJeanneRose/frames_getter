@@ -1,0 +1,15 @@
+A simple soft to grab each unique frame of a video
+Difference is found from histogram, PSNR and SSIM
+
+Tests made with 
+- XperiaZ TV Ad : https://www.youtube.com/watch?v=fK2Y4qf8v_o
+- Small megamind clip : https://github.com/opencv/opencv/blob/4.x/samples/data/Megamind_bugy.avi
+
+Setup :
+- pip install opencv-python
+- mkdir frames
+
+See also :
+- https://docs.opencv.org/4.x/d5/dc4/tutorial_video_input_psnr_ssim.html
+
+- Zhou Wang, A. C. Bovik, H. R. Sheikh and E. P. Simoncelli, "Image quality assessment: from error visibility to structural similarity," in IEEE Transactions on Image Processing, vol. 13, no. 4, pp. 600-612, April 2004, doi: 10.1109/TIP.2003.819861. keywords: {Image quality;Humans;Transform coding;Visual system;Visual perception;Data mining;Layout;Quality assessment;Degradation;Indexes}, 
